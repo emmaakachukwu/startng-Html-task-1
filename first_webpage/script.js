@@ -12,7 +12,5 @@ var courses = [
 for ( i = 1; i <= 200; i++ ) {
     if ( i % 2 ) {
         console.log(i);
-    } else {
-        continue;
     }
 }
