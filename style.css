@@ -1,75 +1,100 @@
-body {
-    background-color: #ADD8E6;
-    font-family: sans-serif;
+* {
+    margin: 0;
+    font-family: monospace;
+    font-size: 18px;
+    color: #424141;
+    scroll-behavior: smooth;
 }
 
-h1, h3, p, a {
-    text-align: center;
+.header {
+    background-color: black;
+    height: 60px;
 }
 
-h1 {
-    margin: 40px 0;
+ul {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin-right: 15px;
     color: #FFF;
-    font-family: 'Courier New', Courier, monospace;
 }
 
-form {
-    width: 400px;
-    margin: auto;
-    border-radius: 30px 30px 30px 0;
-    background-color: #FFF;
-    padding: 30px;
-}
-
-h3 {
-    color: #ADD8E6;
-    line-height: 10px;
-}
-
-p {
-    line-height: 1px;
-    font-size: 12px;
-    color: #4A5A83;
-}
-
-label {
-    display: block;
-    margin: 30px 0 5px;
-    font-size: 12px;
-    font-weight: bold;
-    color: #4A5A83;
-}
-
-input, select {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px 10px;
-    border: none;
-    background-color: #EDF2F7;
-    border-radius: 5px;
-}
-
-button {
-    width: 100%;
-    margin: 30px 0 20px;
-    padding: 20px 10px;
-    background-color: #ADD8E6;
-    border: none;
-    border-radius: 10px 10px 10px 0;
-    color: #FFF;
-    font-weight: bold;
+ul li:hover {
+    color: #888;
     cursor: pointer;
 }
 
-a {
-    display: block;
-    text-decoration: none;
-    color: #FFF;
-    margin: 30px 0 60px;
-    font-size: 12px;
+.main-content {
+    padding: 50px;
+    width: 750px;
+    margin: auto;
 }
 
-a:hover {
-    color: #F1F1F1;
+.bio, .about, .contact {
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.bio-header {
+    font-weight: 600;
+}
+
+p {
+    line-height: 30px;
+}
+
+.bio img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 3px;
+    margin: 5px 0 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px;
+    background-color: #424141;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+}
+
+.footer {
+    height: 120px;
+    bottom: 0;
+    background-color: #424141;
+}
+
+.footer p {
+    color: #FFF;
+    text-align: center;
+    line-height:60px;
+    font-family: monospace;
 }
