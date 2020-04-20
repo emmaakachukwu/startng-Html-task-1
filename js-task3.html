@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task 3</title>
+</head>
+<body>
+    <script>
+        function myfunc (x) {
+            var numarr = [];
+            for(i = 1; i <= x; i++) {
+                if ( i % 2 === 0 && i % 3 === 0 && i % 5 === 0 ) {
+                    numarr.push("yu-gi-oh");
+                } else if ( i % 2 === 0 && i % 3 === 0 ) {
+                    numarr.push("yu-gi");
+                } else if ( i % 2 === 0 && i % 5 === 0 ) {
+                    numarr.push("yu-oh");
+                } else if ( i % 3 === 0 && i % 5 === 0 ) {
+                    numarr.push("gi-oh");
+                } else if ( i % 2 === 0 ) {
+                    numarr.push("yu");
+                } else if ( i % 3 === 0 ) {
+                    numarr.push("gi");
+                } else if ( i % 5 === 0 ) {
+                    numarr.push("oh");
+                } else {
+                    numarr.push(i);
+                }
+            }
+            return numarr;
+        }
+
+        console.log(myfunc(100));
+        console.log(myfunc(24))
+    </script>
+</body>
+</html>
