@@ -9,6 +9,7 @@
     margin: 50px auto;
     border-left: 3px solid #888;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 #question {
@@ -42,4 +43,14 @@ p.score {
 h3, h4 {
     text-align: center;
     line-height: 50px;
+}
+
+@media (max-width: 768px){
+    body {
+        padding: 20px;
+    }
+
+    .holder {
+        width: 100%;
+    }
 }
