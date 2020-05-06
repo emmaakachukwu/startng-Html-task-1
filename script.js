@@ -90,14 +90,7 @@ function checkAns(id){
     if ( id == ans ) {
         score++;
     } else {
-        let options = ["a", "b", "c"];
-        for(i = 0; i < 3; i++){
-            if ( ans == options[i] ) {
-                continue;
-            } else {
-                document.querySelector("#"+options[i]).style.backgroundColor = "red";
-                document.querySelector("#"+options[i]).style.color = "#FFF";
-            }
-        }
+        document.querySelector("#"+id).style.backgroundColor = 'red';
+        document.querySelector("#"+id).style.color = '#FFF';
     }
 }

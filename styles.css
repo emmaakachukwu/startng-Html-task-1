@@ -19,6 +19,7 @@
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px;
+    cursor: pointer;
 }
 
 #startbtn {
@@ -30,9 +31,12 @@
     display: none;
 }
 
-b.score {
+p.score {
     float: right;
     font-size: 1em;
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
 }
 
 h3, h4 {
