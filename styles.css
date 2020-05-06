@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.holder {
+    width: 400px;
+    margin: 50px auto;
+    border-left: 3px solid #888;
+    padding: 10px;
+}
+
+#question {
+    font-weight: bold;
+}
+
+#a, #b, #c, #btn, #startbtn {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+#startbtn {
+    display: block;
+    margin: auto;
+}
+
+.score_card {
+    display: none;
+}
+
+b.score {
+    float: right;
+    font-size: 1em;
+}
+
+h3, h4 {
+    text-align: center;
+    line-height: 50px;
+}
